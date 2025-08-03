@@ -1,150 +1,161 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>زندگی نامه</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
-        body {
-            direction: rtl;
-            font-size: 20px;
-            
+  <meta charset="UTF-8">
+  <title>زندگی نامه</title>
+  <style>
+    body {
+      direction: rtl;
+      margin: 0;
+      padding: 0;
+      font-family: 'Tahoma', sans-serif;
+      background: linear-gradient(to bottom right, #c0e0ff, #f9faff);
+      min-height: 100vh;
+    }
 
-        }
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      padding: 40px 50px;
+    }
 
-        img {
-            border-radius: 20px;
-            
-            box-shadow: 5px 5px rgb(176, 207, 218) ;
-        }
+    p,
+    h1 {
+      font-size: 17px;
+      line-height: 2.1;
+      color: #333;
+      text-align: justify;
+    }
 
-        div {
-        
-            background: rgb(255, 255, 255);
-            margin: 300px auto ;
-            margin-right:60px auto;
-            max-width: 900px;
-            padding: 40px 50px;
-        }
-        p , h1 ,h2{
-            margin-right:5% auto;
-            text-align: justify;
-            
-        }
-        .moshakhasat {
-            border: 2px solid black;
-            border-collapse: collapse;
-            margin-left: 300px;
-            margin-right: 40px;
-            margin-top: 40px;
-            padding: 12px 28px;
-        }
 
-        tr:nth-child(even) {
-            background-color: rgb(176, 207, 218);
 
-        }
 
-        .td {
-            border: 2px solid black
-        }
+    .button {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 12px 28px;
+      background: linear-gradient(to right, #0077cc, #005fa3);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgb(38, 255, 0);
+    }
 
-        .nazar {
-            margin-left: 30px auto;
-            margin-top: 40px auto;
-            margin-right: 30px auto;
-        }
+    .button:hover {
+      background: linear-gradient(to right, #005fa3, #004080);
+      box-shadow: 0 6px 14px rgba(0, 123, 255, 0.5);
+    }
 
-        button:hover {
-            background-color: rgb(50, 17, 214);
-            color: rgb(255, 255, 255);
-        }
-    </style>
-    <link rel="icon" href="icon.png">
+    img {
+      max-width: 100%;
+      margin-top: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .td {
+      border: 2px solid black
+    }
+
+    tr:nth-child(even) {
+      background-color: rgb(176, 207, 218);
+    }
+
+    button:hover {
+      background-color: rgb(50, 17, 214);
+      color: rgb(255, 255, 255);
+    }
+  </style>
+  <link rel="icon" href="icon.png">
 </head>
 
-<body background="photo.jpg">
-    <div>
-        <h1>:زندگی نامه</h1>
-        <p>
-            .من محمدحسین برهان مجرد هستم
-            
-            .در سیزده آذر سال ۱۳۹۰ در شهر قم به دنیا آمدم
-            <br>
-        </p>
-        <h2>:تحصیلات</h2>
-        <br>
-        <p>
-            .کلاس اول دبستان را در مدرسه آینده سازان قم تحصیل کردم
-            
-            پس از آن به شهر تهران آمدم و در دبستان امام هادی به
-            
-            ادامه تحصیل پرداختم.سال ششم با توصیه معلمم برای آزمون
-            
-            تیزهوشان مطالعه کردم.در آزمون ورودی مدارس سمپاد شرکت
-            
-            کردم و پذیرفته شدم.در حال حاضر در مقطع متوسطه یک مدرسه
-            
-            .علامه حلی یک در حال تحصیل هستم✏️📕
-        </p>
-        <br>
-        <img src="1.png" class="img-fluid" alt="image"  width="500px" height="270px" title="عکس دوره 41 علامه حلی تهران">
-        <br>
-        <h2> :علایق</h2>
-        <br>
-        <br>
-        <p>
-            .ورزش فوتبال رشته ورزشی مورد علاقه من است⚽
-            
-            در ده سالگی با مربیگری آقای فرهاد فیض آبادی
-            
-            .بازیکن سابق پرسپولیس، به آموزش فوتبال پرداختم
-            
-            .همچنین آموزش پیانو را از دوازده سالگی آغاز کردم🎹
-        </p>
-        <br>
-        <img src="2.jpg" class="img-fluid" alt="image" width="500px" height="270px" title="عکس تیمی فوتبال">
-        
-        
-        <table class="moshakhasat">
-            
-            <tr>
-                <td class="td">اسم:</td>
-                <td class="td">محمدحسین برهان مجرد</td>
-            </tr>
-            <tr>
-                <td class="td">سن:</td>
-                <td class="td">13</td>
-            </tr>
-            <tr>
-                <td class="td">قد:</td>
-                <td class="td">170cm</td>
-            </tr>
-            <tr>
-                <td class="td">جرم:</td>
-                <td class="td">49kg</td>
-            </tr>
-        </table>
-        <br>
-        
-        <table class="nazar">
-            <tr>
-                <td>نظرت را بنویس:</td>
-            </tr>
-            <tr>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <td><button onclick="myFunction">ارسال</button></td>
-            </tr>
-        </table>
-        
-    </div>
-    <script src="js/bootstrap.min.js"></script>
+<body>
+
+  <div class="container">
+    <h1>:زندگی نامه</h1>
+    <p>
+      .من محمدحسین برهان مجرد هستم
+
+      .در سیزده آذر سال ۱۳۹۰ در شهر قم به دنیا آمدم
+      <br>
+    </p>
+    <h2>:تحصیلات</h2>
+    <br>
+
+    <p>
+      .کلاس اول دبستان را در مدرسه آینده سازان قم تحصیل کردم
+
+      پس از آن به شهر تهران آمدم و در دبستان امام هادی به
+
+      ادامه تحصیل پرداختم.سال ششم با توصیه معلمم برای آزمون
+
+      تیزهوشان مطالعه کردم.در آزمون ورودی مدارس سمپاد شرکت
+
+      کردم و پذیرفته شدم.در حال حاضر در مقطع متوسطه یک مدرسه
+
+      .علامه حلی یک در حال تحصیل هستم✏️📕
+    </p>
+    <img src="1.png" class="img-fluid" alt="image" width="500px" height="270px" title="عکس دوره 41 علامه حلی تهران">
+    <br>
+    <h2> :علایق</h2>
+    <br>
+    <br>
+    <p>
+      .ورزش فوتبال رشته ورزشی مورد علاقه من است⚽
+
+      در ده سالگی با مربیگری آقای فرهاد فیض آبادی
+
+      .بازیکن سابق پرسپولیس، به آموزش فوتبال پرداختم
+
+      .همچنین آموزش پیانو را از دوازده سالگی آغاز کردم🎹
+    </p>
+    <br>
+    <img src="2.jpg" class="img-fluid" alt="image" width="500px" height="270px" title="عکس تیمی فوتبال">
+
+    <br>
+    <table>
+
+      <tr>
+        <td class="td">اسم:</td>
+        <td class="td">محمدحسین برهان مجرد</td>
+      </tr>
+      <tr>
+        <td class="td">سن:</td>
+        <td class="td">13</td>
+      </tr>
+      <tr>
+        <td class="td">قد:</td>
+        <td class="td">170cm</td>
+      </tr>
+      <tr>
+        <td class="td">جرم:</td>
+        <td class="td">49kg</td>
+      </tr>
+    </table>
+    <br>
+
+    <table>
+      <tr>
+        <td>نظرت را بنویس:</td>
+      </tr>
+      <tr>
+        <td><input type="text"></td>
+      </tr>
+      <tr>
+        <td><button onclick="myFunction">ارسال</button></td>
+      </tr>
+    </table>
+
+  </div>
+  <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
-
-
