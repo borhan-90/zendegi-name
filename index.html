@@ -5,37 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>زندگی نامه</title>
-
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
         body {
-            text-align: center;
+            direction: rtl;
             font-size: 28px;
+            
 
         }
 
         img {
             border-radius: 20px;
-            margin-right: 5%;
+            
             box-shadow: 5px 5px rgb(176, 207, 218) ;
         }
 
         div {
         
-            background-color: rgb(255, 255, 255);
-            margin-top: 5%;
-            margin-bottom: 5%;
-            margin-left: 30%;
-            margin-right: 25%;
-            text-align: right;
+            background: rgb(255, 255, 255);
+            margin: 300px auto ;
+            max-width: 900px;
+            padding: 40px 50px;
         }
         p , h1 ,h2{
-            margin-right:5% ;
+            margin-right:5% auto;
+            text-align: justify;
             
         }
         .moshakhasat {
             border: 2px solid black;
             border-collapse: collapse;
-            margin-left: 55%;
+            margin-left: 300px;
+            margin-right: 40px;
+            margin-top: 40px;
+            padding: 12px 28px;
         }
 
         tr:nth-child(even) {
@@ -48,7 +51,9 @@
         }
 
         .nazar {
-            margin-left: 40%;
+            margin-left: 30px auto;
+            margin-top: 40px auto;
+            margin-right: 30px auto;
         }
 
         button:hover {
@@ -64,42 +69,46 @@
         <h1>:زندگی نامه</h1>
         <p>
             .من محمدحسین برهان مجرد هستم
-            <br>
+            
             .در سیزده آذر سال ۱۳۹۰ در شهر قم به دنیا آمدم
+            <br>
         </p>
         <h2>:تحصیلات</h2>
+        <br>
         <p>
             .کلاس اول دبستان را در مدرسه آینده سازان قم تحصیل کردم
-            <br>
+            
             پس از آن به شهر تهران آمدم و در دبستان امام هادی به
-            <br>
+            
             ادامه تحصیل پرداختم.سال ششم با توصیه معلمم برای آزمون
-            <br>
+            
             تیزهوشان مطالعه کردم.در آزمون ورودی مدارس سمپاد شرکت
-            <br>
+            
             کردم و پذیرفته شدم.در حال حاضر در مقطع متوسطه یک مدرسه
-            <br>
-            ✏️📕.علامه حلی یک در حال تحصیل هستم
+            
+            .علامه حلی یک در حال تحصیل هستم✏️📕
         </p>
         <br>
-        <img src="1.png" alt="image" width="500px" height="270px" title="عکس دوره 41 علامه حلی تهران">
+        <img src="1.png" class="img-fluid" alt="image"  width="500px" height="270px" title="عکس دوره 41 علامه حلی تهران">
         <br>
         <h2> :علایق</h2>
+        <br>
+        <br>
         <p>
-            ⚽.ورزش فوتبال رشته ورزشی مورد علاقه من است
-            <br>
+            .ورزش فوتبال رشته ورزشی مورد علاقه من است⚽
+            
             در ده سالگی با مربیگری آقای فرهاد فیض آبادی
-            <br>
+            
             .بازیکن سابق پرسپولیس، به آموزش فوتبال پرداختم
-            <br>
-            🎹.همچنین آموزش پیانو را از دوازده سالگی آغاز کردم
+            
+            .همچنین آموزش پیانو را از دوازده سالگی آغاز کردم🎹
         </p>
         <br>
-        <img src="2.jpg" alt="image" width="500px" height="270px" title="عکس تیمی فوتبال">
-        <br>
-        <br>
+        <img src="2.jpg" class="img-fluid" alt="image" width="500px" height="270px" title="عکس تیمی فوتبال">
+        
+        
         <table class="moshakhasat">
-            <caption>مشخصات</caption>
+            
             <tr>
                 <td class="td">اسم:</td>
                 <td class="td">محمدحسین برهان مجرد</td>
@@ -118,17 +127,21 @@
             </tr>
         </table>
         <br>
-        <br>
+        
         <table class="nazar">
             <tr>
-                <td>نظرت را بنویس</td>
+                <td>نظرت را بنویس:</td>
+            </tr>
+            <tr>
                 <td><input type="text"></td>
+            </tr>
+            <tr>
                 <td><button onclick="myFunction">ارسال</button></td>
             </tr>
         </table>
-        <br>
+        
     </div>
+    <script src="js/bootstrap.min.js"></script>
 </body>
-
 
 </html>
